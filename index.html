@@ -3,63 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Lunafish01's Portfolio</title>
 </head>
 <body>
-    <!-- 1. set up haeder for portfolio
+    <!-- 1. set up header for portfolio
          2. add recent photo or avatar, and links to sections about them, 
          their work, and how to contact them 
          3. set up functional nav bar with links to the sections in portfolio
          4. first img of first application is larger than other application imgs 
          5. images of applications have to be linked to deployed sites
          6. use flex display to accomadate different device viewports -->
-    <header class="header">
+    <header>
+        <!--might need to fix heading back to original-->
         <h1>Lunafish01 Portfolio</h1>
             <div>
-                <ul>
-                    <li>
-                        <a href="">About Me</a>
-                    </li>
-                    <li>
-                        <a href="">Projects</a>
-                    </li>
-                    <li>
-                        <a href="">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="">Resume</a>
-                    </li>
-                    <!--might want to include a few more sections to link to-->
-                    <li></li>
-                    <li></li>
-                </ul>
+                <!--nav bar isnt acting correctly-->
+                <nav>
+                   <a href="Project-01">Project 1</a>
+                   <a href="Project-02">Project 2</a>
+                   <a href="Project-03">Project 3</a>
+                   <a href="Project-04">Project 4</a>
+                   <a href="Project-05">Project 5</a>
+                   <a href="Project-06">Project 6</a>
+                </nav>
             </div>
     </header>
-
-    <section>
-        <main>
-            <article class="Projects">
-                <h2>Projects</h2>
-                <section class="card">
-                    <header>Project-01</header>
-                </section>
-                <section class="card">
-                    <header>Project-02</header>
-                </section>
-                <section class="card">
-                    <header>Project-03</header>
-                </section>
-                <section class="card">
-                    <header>Project-04</header>
-                </section>
-                <section class="card">
-                    <header>Project-05</header>
-                </section>
-                <section class="card">
-                    <header>Project-06</header>
-                </section>
-            </article>
-        </main>
+    <main>
+            <!--ITems arent lining up inline and in two rows of three, need to fix that-->
+        <article>
+             <h2>Projects</h2>
+            <section>
+                <header>Project-01</header>
+                <img src="./assets/images/place-holder-img.jpeg" />
+            </section>
+            <section>
+                <header>Project-02</header>
+                <img src="./assets/images/place-holder-img.jpeg" />
+            </section>
+            <section>
+                <header>Project-03</header>
+                <img src="./assets/images/place-holder-img.jpeg" />
+            </section>
+            <section>
+                <header>Project-04</header>
+                <img src="./assets/images/place-holder-img.jpeg" />
+            </section>
+            <section>
+                <header>Project-05</header>
+                <img src="./assets/images/place-holder-img.jpeg" />
+            </section>
+            <section>
+                <header>Project-06</header>
+                <img src="./assets/images/place-holder-img.jpeg" />
+            </section>
+        </article>
+    </main>
     </section>
 </body>
 <footer> <h2>A Lunafish01 🐟 design</h2>
