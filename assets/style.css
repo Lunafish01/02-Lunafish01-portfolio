@@ -7,7 +7,8 @@
     margin: 0;
   }
   
-  header {
+  /*need to figure out how to style header and navbar with gradient*/
+ header {
     padding: 20px;
     text-align: center;
     background: #036251;
@@ -31,6 +32,21 @@
     flex-wrap: wrap;
   }
   
+ .aside {
+    flex: 10%;
+    background-color: #b9c6ae;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .aside h2{
+    padding: 10px;
+    float: left;
+    font-size: 50px;
+    color: #036251;;
+
+  }
+
   .projects {
     flex: 4;
     background-color: #fff;
@@ -41,8 +57,15 @@
     align-items: flex-start;
   }
 
+  .projects h2{
+    padding: 50px;
+    float: left;
+    font-size: 70px;
+    color: #036251;;
+  }
+
   .card {
-    border-style: hidden;
+    border-style: outset;
     border-width: 1px;
     border-radius: 25px;
     padding: 10px;
@@ -65,5 +88,11 @@
   }
 */
 
-  
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #036251;
+    color: #fff;
+    margin-top: auto;
+  }
   
