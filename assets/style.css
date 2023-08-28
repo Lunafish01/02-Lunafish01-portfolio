@@ -10,7 +10,7 @@
   header {
     padding: 20px;
     text-align: center;
-    background: #13293d;
+    background: #036251;
     color: #fff;
   }
 
@@ -20,7 +20,7 @@
   }
 
   nav a {
-    color: #13293d;
+    color: #036251;
     padding: 15px 20px;
     text-decoration: none;
     text-align: left;
@@ -58,11 +58,12 @@
 
 /*need to add caption for cards*/
 
+/*
   .card img {
     width: 100%;
     border-radius: 0px 0px 20px 20px
   }
-  
+*/
 
   
   
