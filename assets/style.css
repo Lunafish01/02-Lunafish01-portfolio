@@ -31,8 +31,37 @@
     flex-wrap: wrap;
   }
   
- 
+  .projects {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
 
+  .card {
+    border-style: hidden;
+    border-width: 1px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 10px gray;
+  }
+
+  .card header {
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+  }
+
+/*need to add caption for cards*/
+
+  .card img {
+    width: 100%;
+    border-radius: 0px 0px 20px 20px
+  }
   
 
   
