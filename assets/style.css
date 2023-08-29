@@ -9,9 +9,9 @@
   
   /*need to figure out how to style header and navbar with gradient*/
  header {
+  background-image: linear-gradient(to right, red,yellow,orange);
     padding: 20px;
     text-align: center;
-    background: #036251;
     color: #fff;
   }
 
