@@ -8,70 +8,76 @@
 </head>
 
 <body>
+  <!-- Header -->
+  <header>
+    <h1>Lunafish01's Portfolio</h1>
+  </header>
 
-    <header>
-      <h1>Lunafish01 Portfolio</h1>
-    </header>
+  <!-- Navbar -->
+  <nav>
+    <a href="#About-Me">About Me</a>
+    <a href="#Projects">Projectts</a>
+    <a href="#Contact-Me">Contact Me</a>
+  </nav>
 
-    <nav class="navigation">
-      <ul class="navigation ul">
-        <li>
-          <a href="About-Me">About Me</a>
-        </li>
-        <li>
-          <a href="Projects">Projects</a>
-        </li>
-        <li>
-          <a href="Contact-Me">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
+  <!-- Body -->
+  <main>
+    <!-- Sidebar -->
+    <!--need to change li tags to p tags-->
+    <aside>
+      <h2>About Me</h2>
+          <img class="profile-img" src="./assets/images/profile-pic.jpeg" alt="picture of Josh Luna" />
+    </aside>
 
-    <main>
-        <div>
-            <aside class="aside">
-                <h2>About Me</h2>
-            </aside>
-        </div>
-            
+    
+    <!-- Product Cards -->
+    <div id="Projects" class="projects">
       <div>
-        <article class="Projects">
-          <h2>Projects</h2>
-          <section class="card-p1 card-h3">
-            <h3>Project-01</h3>
-            <img src="./assets/images/place-holder-img.jpeg" />
-          </section>
-          <section class="card">
-            <h3>Project-02</h3>
-            <img src="./assets/images/place-holder-img.jpeg" />
-          </section>
-          <section class="card">
-            <h3>Project-03</h3>
-            <img src="./assets/images/place-holder-img.jpeg" />
-          </section>
-          <section class="card">
-            <h3>Project-04</h3>
-            <img src="./assets/images/place-holder-img.jpeg" />
-          </section>
-          <section class="card">
-            <h3>Project-05</h3>
-            <img src="./assets/images/place-holder-img.jpeg" />
-          </section>
-        </article>
-      </div>
-
-      <div>
-        <h2>Contact Me</h2>
-        <section>
-
+        <section class="card-a">
+          <header>Prework Study Guide</header>
+          <a href="https://github.com/Lunafish01/prework-study-guide">
+          <img src="./assets/images/study-guide-img.jpeg" alt="stock image of notebook" />
+          </a>
         </section>
       </div>
-    </main>
-  
-</body>
 
+      <div class="card-a">
+        <section class="card">
+          <header>Horiseon Project</header>
+          <a href="https://lunafish01.github.io/Horiseon-Accessibility-Project/">
+          <img src="./assets/images/information-tech.jpeg" alt="information technology" />
+          </a>
+        </section>
+        <section class="card">
+          <header>Project 3</header>
+          <img src="./assets/images/place-holder-img.jpeg" alt="coming soon" />
+        </section>
+      </div>
+      <div class="card-a">  
+        <section class="card">
+          <header>Project 4</header>
+          <img src="./assets/images/place-holder-img.jpeg" alt="coming soon" />
+        </section>
+        <section class="card">
+          <header>Project 5</header>
+          <img src="./assets/images/place-holder-img.jpeg" alt="coming soon" />
+        </section>
+      </div>
+    </div>
+
+    <div id="Contact-Me" class="contact-card">
+      <section>
+        <h2>Contact Me</h2>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
   <footer>
     <h3>A Lunafish01 🐟 design</h3>
     <p>&copy; 2023 Tin Can Tuna Designs, Inc.</p>
   </footer>
+</body>
+
 </html>
