@@ -5,83 +5,121 @@
     <link rel="stylesheet" href="./assets/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Lunafish01's Portfolio</title>
-</head>
+  </head>
 
 
   
   <body>
-    <!-- Header -->
-    <header>
-      <h1>Lunafish01's Portfolio</h1>
-    </header>
-    
-    <!-- Navbar -->
-    <nav>
-      <a href="#About-Me">About Me</a>
-      <a href="#Projects">Projectts</a>
-      <a href="#Contact-Me">Contact Me</a>
-    </nav>
-    
-    <!-- Body -->
-    <main>
-      <!-- Sidebar -->
-      <!--need to change li tags to p tags-->
-      <aside>
-        <h2>About Me</h2>
-        <img class="profile-img" src="./assets/images/profile-pic.jpeg" alt="picture of Josh Luna" />
-      </aside>
-      
-      
-      <!-- Product Cards -->
-      <div id="Projects" class="projects">
+    <!-- header and navbar-->
+      <header>
         <div>
-          <section class="card-a">
-            <header>Prework Study Guide</header>
-            <a href="https://github.com/Lunafish01/prework-study-guide">
-              <img src="./assets/images/study-guide-img.jpeg" alt="stock image of notebook" />
-            </a>
-          </section>
+          <h1>Josh <span>Luna</span></h1>
         </div>
-        
-        <div class="card-a">
-          <section class="card">
-            <header>Horiseon Project</header>
-            <a href="https://lunafish01.github.io/Horiseon-Accessibility-Project/">
-              <img src="./assets/images/information-tech.jpeg" alt="information technology" />
-            </a>
-          </section>
-          <section class="card">
-            <header>Project 3</header>
-            <img src="./assets/images/place-holder-img.jpeg" alt="coming soon" />
-          </section>
-        </div>
-        <div class="card-a">  
-          <section class="card">
-            <header>Project 4</header>
-            <img src="./assets/images/place-holder-img.jpeg" alt="coming soon" />
-          </section>
-          <section class="card">
-            <header>Project 5</header>
-            <img src="./assets/images/place-holder-img.jpeg" alt="coming soon" />
-          </section>
-        </div>
-      </div>
-    
+        <nav>
+          <ul>
+            <li>
+              <a href="#about-me">ABOUT ME</a>
+            </li>
+            <li>
+                <a href="#my-projects">MY PROJECTS</a>
+            </li>
+            <li>
+              <a href="#contact-me">CONTACT ME</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    <div id="Contact-Me" class="contact-card">
-      <section>
-        <h2>Contact Me</h2>
+         <!-- hero image section start -->
+         <section class="hero">
+          <div class="quote">
+            <blockquote>
+                <p id="quote-text">
+                    Hi, I'm Luna<span>fish01! </span>Nice to meet ya. <br> I'd like to be your next web developer.
+                </p>
+            </blockquote>
+        </div>
+          <div>
+              <img src="./assets/images/profile-pic.jpeg" alt="image of Josh Luna">
+          </div>
       </section>
-    </div>
+    <!--about me section-->
+      <section id="about-me" class="about-me"></sectionid>
+        <div class="header">
+          <h2>About Me</h2>
+        </div>
 
-  </main>
+        <div>
+          <p>This is my professional Junior Web Development Portfolio
+            <br>Im a new developer and this portfolio will showcase my journey as I complete UTSA's coding bootcamp.
+            <br>I'm 36 years old, born and raised in San Antonio, TX. 
+            <br>I have an extensive background in Sales and Marketing and I'm looking to add web development to my resume.
+          </p>
+        </div>
+      </section>
 
-  <!-- Footer -->
-  <footer>
-    <h3>A Lunafish01 🐟 design</h3>
-    <p>&copy; 2023 Tin Can Tuna Designs, Inc.</p>
-  </footer>
-</body>
+    <!--my projects-->
+      <section id="my-projects" class="my-projects">
+        <div class="header">
+          <h2>My Projects</h2>
+        </div>
 
+        <div class="project-row-container">
+          <div class="project-row">
+            <a href="https://lunafish01.github.io/prework-study-guide/" class="project prework">
+              <div class="project-card">
+                <h3>Pre-work Study Guide</h3>
+              </div>
+            </a>
+
+            <a href="https://lunafish01.github.io/Horiseon-Accessibility-Project/" class="project horiseon">
+              <div class="project-card">
+                <h3>Horiseon Project</h3>
+              </div>
+            </a>
+
+            <a href="https://github.com/Lunafish01" class="project coming-soon">
+              <div class="project-card">
+                <h3>Coming Soon</h3>
+              </div>
+            </a>
+
+            <a href="https://github.com/Lunafish01" class="project coming-soon">
+              <div class="project-card">
+                <h3>Coming Soon</h3>
+              </div>
+            </a>
+
+            <a href="https://github.com/Lunafish01" class="project coming-soon">
+              <div class="project-card">
+                <h3>Coming Soon</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div id="contact-me" class="header">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="footer-card">
+          <div id="contact-list">
+            <ul>
+              <li>
+                <a href="mailto:jlunafish1@yahoo.com">Email</a>
+              </li>
+              <li>
+                <a href="https://github.com/Lunafish01">GitHub</a>
+              </li>
+              <li>
+                <p>Phone: 210-620-3866</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+  </body>
 
 </html>
