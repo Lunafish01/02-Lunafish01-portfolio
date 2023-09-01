@@ -1,15 +1,10 @@
-/*NEED TO ADD MEDIA QUERYS*/
-
-
-
-
 /*color variable pallette*/
 :root{
   --primary: rgb(91, 160, 114);
   --secondary: #e0e0e0;  
 }
 
-/*universal selectors for css default setting*/
+/*universal selector for css default setting*/
 *{
   margin:0;
   padding:0;
@@ -237,3 +232,4 @@ footer ul li a:hover{
   color: antiquewhite;
 }
 
+/* need to add media querys but still not confident in how to do so*/
