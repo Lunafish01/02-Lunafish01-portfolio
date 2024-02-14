@@ -171,25 +171,25 @@ header nav ul li a:hover{
 .horiseon{
   grid-column: auto;
   grid-row: 0 2;
-  background-image: url(./images/information-tech.jpeg);
+  background-image: url(./images/the-matrix.webp);
 }
 
 .codingdnd{
   grid-column: auto;
   grid-row: 0 2;
-  background-image: url(./images/images-dnd2.jpeg);
+  background-image: url(./images/DND-big-boy.png);
 }
 
 .fitness-diary {
   grid-column: auto;
   grid-row: 0 2;
-  background-image: url(./images/download-fitness.jpeg);
+  background-image: url(./images/barbell-fitness-training-gym-sports-600nw-2139742761.webp);
 }
 
 .anie-mates{
   grid-column: auto;
   grid-row: 0 2;
-  background-image: url(./images/best-magical-girl-anime-thumb-1664575012045.jpg);
+  background-image: url(./images/chibi-sailor-moon-purple-pink-desktop-wallpaper-preview.jpg);
 }
 
 .project-card{
